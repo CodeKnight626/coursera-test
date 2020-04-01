@@ -1,0 +1,16 @@
+div.menu > ul > li {
+	list-style-type: none;
+}
+
+div.menu a:link {
+	background-color: black;
+	border: solid;
+	width: 100px;
+	text-decoration: none;
+}
+
+div.menu a:hover {
+	background-color: white;
+	border: white;
+	width: 100px;
+}
