@@ -1,12 +1,25 @@
+*{
+	box-sizing: border-box;
+}
+
+div.header {
+	position: relative;
+}
+
 div.menu > ul > li {
 	list-style-type: none;
+	position: relative;
 }
 
 div.menu a:link {
+	position: relative;
 	background-color: black;
-	border: solid;
+	border: solid black;
 	width: 100px;
+	margin: 100px;
 	text-decoration: none;
+	top: 30px;
+	padding: 10px;
 }
 
 div.menu a:hover {
@@ -16,25 +29,25 @@ div.menu a:hover {
 }
 
 div.menu li.inicio {
-	position: relative;
+	position: absolute;
 	left: 80px;
 	top: 2px;
 }
 
 div.menu li.nosotros {
-	position: relative;
-	left: 130px;
-	top: -16px;
+	position: absolute;
+	left: 150px;
+	top: 2px;
 }
 
 div.menu li.servicio {
-	position: relative;
-	left: 200px;
-	top: -34px;
+	position: absolute;
+	left: 240px;
+	top: 2px;
 }
 
 div.menu li.contacto {
-	position: relative;
-	left: 265px;
-	top: -52px;
+	position: absolute;
+	left: 325px;
+	top: 2px;
 }
