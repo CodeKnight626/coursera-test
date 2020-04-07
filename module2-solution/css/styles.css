@@ -1,0 +1,64 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+} 
+
+p {
+	padding: 5px;
+}
+
+.title {
+	text-align: center;
+	border: 1px solid black;
+	float: right;
+	width: 33.3%;
+}
+
+.titleC {
+	background-color: pink;
+}
+
+.titleB {
+	background-color: #900000;
+	color: white;
+}
+
+.titleS {
+	background-color: #D9FFB8;
+}
+
+div > div {
+	background-color: gray;
+	border: 1px solid black;
+	
+}
+
+/*div > div and .col-lg-4 {
+	float: left;
+}*/
+
+.col-lg-4, .col-md-6, .col-md-12 {
+	padding: 10px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 33%;
+    float: left;
+    
+  }
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+
+  .col-md-12 {
+    width: 100%;
+    clear: both;
+  }
